@@ -1,4 +1,4 @@
-# LocalCache
+# Cache
 This is a simple, thread-safe, in-memory cache library written in Go. It allows for the storage of key-value pairs with a defined time-to-live (TTL) value, and regularly cleans up expired values.
 
 ## Features
@@ -12,7 +12,7 @@ This is a simple, thread-safe, in-memory cache library written in Go. It allows 
 ```
 import (
     "time"
-    "github.com/myusername/localcache"
+    "github.com/stage5/cache"
 )
 
 cacheTTL := 30 * time.Second
